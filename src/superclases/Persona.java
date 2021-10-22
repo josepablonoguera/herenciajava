@@ -10,7 +10,7 @@ package superclases;
  * @author Pablo
  * @author Maria
  */
-public class Persona implements NewInterface  {
+public class Persona  {
 
    private String cedula; 
    private String nombre;
@@ -38,7 +38,7 @@ public class Persona implements NewInterface  {
     /**
      * @param cedula the cedula to set
      */
-    @Override
+   
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
@@ -53,7 +53,7 @@ public class Persona implements NewInterface  {
     /**
      * @param nombre the nombre to set
      */
-    @Override
+   
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -68,7 +68,7 @@ public class Persona implements NewInterface  {
     /**
      * @param apellido the apellido to set
      */
-    @Override
+  
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
@@ -83,7 +83,7 @@ public class Persona implements NewInterface  {
     /**
      * @param direccion the direccion to set
      */
-    @Override
+   
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
@@ -98,7 +98,7 @@ public class Persona implements NewInterface  {
     /**
      * @param telefono the telefono to set
      */
-    @Override
+ 
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
@@ -113,7 +113,7 @@ public class Persona implements NewInterface  {
     /**
      * @param horario the horario to set
      */
-    @Override
+   
     public void setHorario(String horario) {
         this.horario = horario;
     }

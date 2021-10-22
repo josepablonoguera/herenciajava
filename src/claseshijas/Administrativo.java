@@ -6,14 +6,14 @@
 package claseshijas;
 
 
-import superclases.NewInterface;
+
 import superclases.Persona;
 
 /**
  *
  * @author pablo
  */
-public class Administrativo extends Persona implements NewInterface {
+public class Administrativo extends Persona  {
 
     private String puesto;
 
@@ -31,7 +31,8 @@ public class Administrativo extends Persona implements NewInterface {
 
     @Override
     public void setApellido(String apellido) {
-    
+       
+        super.setApellido(apellido);
         System.out.println("Apellido en Interface"+ apellido);
 
     }
